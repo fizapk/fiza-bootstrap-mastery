@@ -4,13 +4,94 @@
   <title>Bootstrap 5 Layout</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/">
+
 </head>
 
+  <!-- Nav -->
 <body>
-  <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Jumbotron -->
+  <div class="container-fluid"></div>
+  <header class="jumbotron text-center text-white py-5 bg-white">
+    <h1 class="display-4" > SHIP'S LOG </h1>
+    <p class="lead text-center text-white"> A diary by Capt. Crit 'Red Beard' McGillicutty. </p>
+  </header>
+  </div>
+  
+  <!-- Cards -->
+  <section class="container">
+    <div class="row p-10">
+      <div class="col-md-6 col-lg-8">
+          <h2>Thar be monsters in the sea</h2>
+      </div>
+  </section>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card text-bg-light">
+        <img src="img/kraken01.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nelsons folly</h5>
+          <p class="card-text">Driver no prey, no pay Nelsons folly crack Jennys tea cup heave down long clothes interloper hempen halter boatswain hands. Jack dance the hempen jig bilge rat keelhaul crack Jennys tea cup interloper furl hogshead tack spirits. 
 
+</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-light">
+        <img src="img/kraken02.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Black lad</h5>
+          <p class="card-text">Admiral of the Black lad grog Gold Road furl poop deck piracy scurvy barque six pounders. Bring a spring upon her cable nipperkin rutters weigh anchor jury mast Chain Shot execution dock chantey gaff come about. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-light">
+        <img src="img/kraken03.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Marooned Gold Road</h5>
+          <p class="card-text">Marooned Gold Road landlubber or just lubber Spanish Main overhaul trysail cackle fruit tender me galleon. Parley topsail run a shot across the bow flogging doubloon chantey mizzenmast brigantine Jolly Roger scallywag.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Alert element for Extra Credit -->
+<div class="alert alert-success" role="alert">
+  You've come this far. If you're not too scared, the Kraken beckons you <a href="#" class="alert-link">here</a>. Proceed with caution. Once you discover the secrets, there's no going back.
+</div>
+
+<!-- Footer -->
+  <footer>
+    <p class="text-center bg-primary py-3 p-1">Site by Kraken Industries</p>
+  </footer>
+  
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>

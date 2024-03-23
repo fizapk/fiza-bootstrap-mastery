@@ -17,10 +17,41 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Import partials:
+$primary: #0e5d50;
+$body-bg: #ededed;
 
-// Custom styles:
+.header .jumbotron {
+  background-image: url(../img/pirate-ship.jpg);
+  height:400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+header {
+  .lead {
+    font-weight: lighter;
+  }
+}
+
+.tagline{
+  font-weight: bold;
+ text-align:  left;
+}
+
+.figure-caption{
+  font-style: italic;
+}
+
+
 
